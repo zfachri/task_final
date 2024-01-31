@@ -120,7 +120,7 @@ def main():
     with sentiment_button :
     # Tab Sentiment Analysis
         st.header("Sentiment Analysis")
-        news_url = "https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=e1c7f6efec974dddb22076143d05bfe8";
+        news_url = "https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=bc7820fe7ae943b39399c643f778f191";
         try :
           response = req.get(news_url)
           response = response.json()
